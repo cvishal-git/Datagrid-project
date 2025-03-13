@@ -1,0 +1,84 @@
+.data-grid {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.grid-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.selection-text {
+  color: #666;
+  font-size: 14px;
+}
+
+.download-button {
+  padding: 8px 16px;
+  background-color: transparent;
+  color: #666;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.download-button:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+th, td {
+  padding: 12px 20px;
+  text-align: left;
+  border: none;
+  color: #333;
+  font-size: 14px;
+}
+
+th {
+  color: #666;
+  font-weight: normal;
+  border-bottom: 1px solid #eee;
+}
+
+tr {
+  border-bottom: 1px solid #eee;
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+tr:hover {
+  background-color: #fafafa;
+}
+
+.status-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #4caf50;
+  border-radius: 50%;
+  margin-right: 8px;
+}
